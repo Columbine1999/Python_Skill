@@ -1,0 +1,13 @@
+step 1 : 创建目录
+	 mkdir myproject
+	 cd myproject 
+显示：C:\Users\ylf\myproject
+step 2 : 创建一个独立的Python运行环境 命名为venv：
+	virtualenv --no-site-package venv
+
+显示  Using base prefix 'E:\\Anaconda3'……
+step3 ： 进入该环境 （venv环境是专门针对myproject这个应用创建的）
+	venv\Scripts\activate
+step4 ：退出当前的venv环境，使用deactivate命令：
+	deactivate
+
